@@ -5,7 +5,7 @@
     <RootNamespace>Splat</RootNamespace>
     <Authors>Paul Betts</Authors>
     <Description>A library to make things cross-platform that should be</Description>
-    <PackageId>Splat</PackageId>
+    <PackageId>Splat-StrongName</PackageId>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>E:\DEV\redefined\repos\splat\src\ReactiveUI.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>

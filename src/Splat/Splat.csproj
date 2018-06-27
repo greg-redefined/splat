@@ -6,6 +6,8 @@
     <Authors>Paul Betts</Authors>
     <Description>A library to make things cross-platform that should be</Description>
     <PackageId>Splat</PackageId>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>E:\DEV\redefined\repos\splat\src\ReactiveUI.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -63,6 +65,10 @@
 
     <Compile Include="Platforms\PlatformModeDetector.cs" />
     <Compile Include="Platforms\TypeForwardedSystemDrawing.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\ReactiveUI.snk" Link="ReactiveUI.snk" />
   </ItemGroup>
 
   <Import Project="$(MSBuildSDKExtrasTargets)" Condition="Exists('$(MSBuildSDKExtrasTargets)')" />
